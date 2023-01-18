@@ -1,0 +1,75 @@
+layout: page
+title: Projects
+permalink: /projects
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects Page</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css"/>
+    <div class="projectheading">
+        <h1 style="font-family: 'Raleway', Arial, sans-serif; color:rgb(255, 255, 255);padding:40px 16px"> PROJECTS </h1>
+    </div>
+</head>
+<div class="section">
+
+</div>
+<body class="projects">
+    <h4 style="color:aliceblue">Here are some academic/personal projects I have worked on. Hover over the image to learn more and get links to the files:</h4>
+    <div class="row">
+    <div class="image" style="float:left">
+		<img class="image__img" src="images/microprocessor.png" class="microprocessor" style="float:left">
+		<div class="image__overlay image__overlay--primary">
+			<div class="image__title">Microprocessor</div>
+			<p class="image__description">
+				In my digital logic/computer organization class, I created a single-cycle processor using verilog HDL. I specifically coded and made test files for 
+                the Arithmetic Logic Unit, the Register File, Decoder, and PC. 
+
+			</p>
+            <a href="https://gitfront.io/r/user-4744459/ey7d4yoeS985/Microprocessor/">Link to Github Repository</a>
+		</div>
+	</div>
+
+    <div class="image">
+		<img class="image__img" src="images/Sherri's PCB.jpg" class="pcbpic"> 
+		<div class="image__overlay image__overlay--primary">
+			<div class="image__title">Sherri's PCB</div>
+			<p class="image__description">
+				Following the guidelines from a workshop at school, I created a PCB of an Arduino using Autodesk Eagle
+                in which I first created a schematic and then made the board outline by placing the components on the board.
+                I optimized the PCB to be as small as possible and to have a ground layer using vias to make the wires more organized.
+			</p>
+            <a href="https://github.com/sherriqazi101/Sherri-s-PCB-Files">Link to Github Repository</a>
+		</div>
+	</div>
+
+    <div class="image">
+		<img class="image__img" src="images/Linear Actuator and N20 Motor.jpg" class="motorimage"> <br/>
+		<div class="image__overlay image__overlay--primary">
+			<div class="image__title">N20/Linear Motors for Alt Bionics</div>
+			<p class="image__description">
+                To address the issue of expensive prosethics, my project team EWH collaborated with Alt-Bionics to create a prosethetic hand. My subteam integrated two rotational motors as the thumb, and the four fingers will
+                use four linear servos which will pull up and down as the fingers move. 
+In order to wire all 6 components onto one Arduino Uno, we went through a breadboarding process that includes testing individual components separately and slowly integrating them together into one breadboard to eventually design a PCB.
+
+
+			</p>
+            <a href="https://github.com/sherriqazi101/Project-Team-Work">Link to Github Repository Coming Soon!</a>
+            <a href="files/EWH Electrical Poster FA2022.pptx.pdf" download ="Electrical Poster">Poster Presentation</a>
+
+		</div>
+	</div>
+</div>
+    
+</body>
+<footer id="footerprojects">
+    <p>Phone Number: (302)359-2848 </p>
+    <p>Email: shahre942@gmail.com</p>
+</footer>
+</html>
