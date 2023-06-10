@@ -115,14 +115,20 @@ h1{
 	font-size: 1.25em;
 	margin-top: 0.25em;
 }
+.embeddedsystem{
+
+    width:100%;
+}
 .motorimage{
     width: 20%;
  
 }
 .microprocessor{
+
     width:100%;
 
 }
 .pcbpic{
     width:20%;
 }
+
